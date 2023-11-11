@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC-Azure", "MVC-Azure\MVC-Azure.csproj", "{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBB788BF-0E3E-4623-9782-6A9417E5FF94}
+	EndGlobalSection
+EndGlobal
