@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC-Azure", "MVC-Azure\MVC-Azure.csproj", "{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC-Azure", "MVC-Azure\MVC-Azure.csproj", "{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor-Azure", "Blazor-Azure\Blazor-Azure.csproj", "{3F3F130F-57AE-48E4-B979-9C22650B491C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8E9C169-FD9B-4E94-89AC-7BCBE2099996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3F130F-57AE-48E4-B979-9C22650B491C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3F130F-57AE-48E4-B979-9C22650B491C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3F130F-57AE-48E4-B979-9C22650B491C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3F130F-57AE-48E4-B979-9C22650B491C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
