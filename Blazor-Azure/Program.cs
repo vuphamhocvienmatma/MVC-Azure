@@ -1,9 +1,14 @@
 using Blazor_Azure.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+// Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("CosmosDbConnection");
+var dbName = builder.Configuration["CosmosDbDetails:CosmosDbName"];
+builder.Services.AddDbContext<AzureCosmosDbContext>(options => options.UseCosmos(
+    accountKey: builder.Configuration["CosmosDbDetails:CosmosDbKey"],
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
